@@ -1,5 +1,5 @@
 // Target date: Wednesday, January 21, 2026
-const targetDate = new Date('2026-01-21T00:00:00');
+const targetDate = new Date('2026-01-16T00:00:00');
 // Start date for calculating progress (current time)
 const startDate = new Date();
 
@@ -82,4 +82,5 @@ function updateCountdown() {
 
 // Update immediately and then every second
 updateCountdown();
+
 setInterval(updateCountdown, 1000);
